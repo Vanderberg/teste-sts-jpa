@@ -38,6 +38,7 @@ public class TesteStsJpaTravisApplication {
 			
 //			empresaDB.setRazaoSocial("Kazale IT Web");
 //			this.empresaRepository.saveAll(empresaDB);
+			
 
 			Empresa empresaCnpj = empresaRepository.findByCnpj("74645215000104");
 			System.out.println("Empresa por CNPJ: " + empresaCnpj);
